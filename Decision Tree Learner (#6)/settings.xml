@@ -40,7 +40,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="splitAverage" type="xboolean" value="true"/>
+        <entry key="splitAverage" type="xboolean" value="false"/>
         <config key="numProcessors_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -60,7 +60,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="firstSplitColumn" type="xstring" value="best_score"/>
+        <entry key="firstSplitColumn" type="xstring" value="stars"/>
         <config key="binaryNominalSplit_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>

@@ -13,11 +13,11 @@
         <config key="include">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
-            </config>
-            <config key="excluded_names">
                 <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="stars"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -33,10 +33,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="No columns selected for conversion, returning the unchanged input table as output table."/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.numbertostring2.NumberToString2NodeFactory"/>
     <entry key="node-name" type="xstring" value="Number to String"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -62,6 +58,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ed383704-436c-4655-8c5b-10bba7af14f7"/>
+        <entry key="file_store_id" type="xstring" value="f209fafd-4066-4fbf-acad-38e0d2502e31"/>
     </config>
 </config>

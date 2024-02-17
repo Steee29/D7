@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="targetColumn" type="xstring" value="recipe_name"/>
+        <entry key="targetColumn" type="xstring" value="stars"/>
         <entry key="seed" type="xstring" value="1708100553722"/>
         <entry key="maxLevels" type="xint" value="-1"/>
         <entry key="minNodeSize" type="xint" value="-1"/>
@@ -28,23 +28,10 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="stars"/>
+                <entry key="0" type="xstring" value="recipe_name"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="13"/>
-                <entry key="0" type="xstring" value="Column0"/>
-                <entry key="1" type="xstring" value="recipe_number"/>
-                <entry key="2" type="xstring" value="recipe_code"/>
-                <entry key="3" type="xstring" value="comment_id"/>
-                <entry key="4" type="xstring" value="user_id"/>
-                <entry key="5" type="xstring" value="user_name"/>
-                <entry key="6" type="xstring" value="user_reputation"/>
-                <entry key="7" type="xstring" value="created_at"/>
-                <entry key="8" type="xstring" value="reply_count"/>
-                <entry key="9" type="xstring" value="thumbs_up"/>
-                <entry key="10" type="xstring" value="thumbs_down"/>
-                <entry key="11" type="xstring" value="best_score"/>
-                <entry key="12" type="xstring" value="text"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -55,9 +42,9 @@
             </config>
             <config key="datatype">
                 <config key="typelist">
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
@@ -90,21 +77,21 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 8000, Cols: 52"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 13188, Cols: 12"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="100 classifiers on 1 attributes"/>
+            <entry key="port_object_summary" type="xstring" value="100 classifiers on 3 attributes"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>

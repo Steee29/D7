@@ -45,7 +45,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="numProcessors" type="xint" value="8"/>
+        <entry key="numProcessors" type="xint" value="4"/>
         <config key="maxNumNominalValues_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -85,7 +85,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="firstSplitColumn" type="xstring" value="recipe_name"/>
+        <entry key="firstSplitColumn" type="xstring" value="thumbs_down"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>

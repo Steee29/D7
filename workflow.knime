@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="Stefano"/>
         <entry key="authored-when" type="xstring" value="2024-02-12 13:00:16 +0100"/>
         <entry key="lastEdited-by" type="xstring" value="ivanr"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-02-23 21:27:44 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-02-23 21:47:37 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -660,8 +660,8 @@
                 <entry key="extrainfo.conn.bendpoints_size" type="xint" value="3"/>
                 <config key="extrainfo.conn.bendpoints_0">
                     <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xint" value="-4324"/>
-                    <entry key="1" type="xint" value="353"/>
+                    <entry key="0" type="xint" value="-4340"/>
+                    <entry key="1" type="xint" value="354"/>
                 </config>
                 <config key="extrainfo.conn.bendpoints_1">
                     <entry key="array-size" type="xint" value="2"/>
